@@ -25,6 +25,7 @@
 }
 .ph-list:hover, .ph-shopping-cart-simple:hover, .ph-user:hover{
   color: #f0d399;
+  cursor: pointer;
 }
 nav{
   flex: 1;
@@ -69,7 +70,7 @@ nav ul li a:hover{
 .bottomtext{
   font-family: Montserrat;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
 }
 .ph-twitter-logo-fill, .ph-github-logo-fill, .ph-linkedin-logo-fill, .ph-dribbble-logo-fill{
   font-size: 18px;
@@ -79,22 +80,18 @@ nav ul li a:hover{
 }
 .ph-twitter-logo-fill:hover{
   color: #1DA1F2;
-  font-size: 24px;
   transition: 0.25s;
 }
 .ph-github-logo-fill:hover{
   color: #3F3F3F;
-  font-size: 24px;
   transition: 0.25s;
 }
 .ph-linkedin-logo-fill:hover{
   color: #0072b1;
-  font-size: 24px;
   transition: 0.25s;
 }
 .ph-dribbble-logo-fill:hover{
   color: #ea4c89;
-  font-size: 24px;
   transition: 0.25s;
 }
 .bottomicons a{

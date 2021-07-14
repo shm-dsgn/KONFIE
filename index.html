@@ -18,11 +18,25 @@
 					<li><a href="">CONTACT US</a></li>
 				</ul>
 			</nav>
-			<i class="ph-list"></i>
+			<i class="ph-list" onclick="togglemenu()"></i>
 			<i class="ph-shopping-cart-simple"></i>
 			<i class="ph-user"></i>
 		</div>
 	</div>
+	<script>
+		var menuList = document.getElementById('menuList');
+		menuList.style.maxHeight = "0px";
+		function togglemenu(){
+			if(menuList.style.maxHeight === "0px")
+			{
+				menuList.style.maxHeight = "100px"
+			}
+			else
+			{
+				menuList.style.maxHeight = "0px";
+			}
+		}
+	</script>
 	
 </body>
 </html>

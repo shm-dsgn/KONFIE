@@ -4,7 +4,7 @@
   padding: 0;
 }
 .container{
-  width: device;
+  width: 100%;
   background-color: #351C08;
   height: 108px;
   box-sizing: border-box;
@@ -16,15 +16,14 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding-top: 34px;
+  padding-top: 36px;
 }
-i{
+.ph-list, .ph-shopping-cart-simple, .ph-user{
   color: white;
-  width: 16px;
-  height: 16px;
+  font-size: 18px;
   margin-left: 24px;
 }
-i:hover{
+.ph-list:hover, .ph-shopping-cart-simple:hover, .ph-user:hover{
   color: #f0d399;
 }
 nav{
@@ -41,6 +40,7 @@ nav ul li a{
   color: white;
   font-size: 12px;
   font-family: Montserrat;
+  font-weight: 500;
   letter-spacing: 0.05em;
   margin-left: 24px;
 }
@@ -54,8 +54,54 @@ nav ul li a:hover{
 .logo{
   margin-right: 60px;
 }
+.bottom{
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 60px;
+  padding-right: 60px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  bottom: 15px;
+}
+.bottomtext{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+}
+.ph-twitter-logo-fill, .ph-github-logo-fill, .ph-linkedin-logo-fill, .ph-dribbble-logo-fill{
+  font-size: 18px;
+  margin: 8px;
+  color: #351C08;
+  transition: 0.25s;
+}
+.ph-twitter-logo-fill:hover{
+  color: #1DA1F2;
+  font-size: 24px;
+  transition: 0.25s;
+}
+.ph-github-logo-fill:hover{
+  color: #3F3F3F;
+  font-size: 24px;
+  transition: 0.25s;
+}
+.ph-linkedin-logo-fill:hover{
+  color: #0072b1;
+  font-size: 24px;
+  transition: 0.25s;
+}
+.ph-dribbble-logo-fill:hover{
+  color: #ea4c89;
+  font-size: 24px;
+  transition: 0.25s;
+}
+.bottomicons a{
+  text-decoration: none;
+}
 
-@media only screen and (max-width: 740px){
+@media only screen and (max-width: 650px){
   nav ul{
     width: 100%;
     background: #351C08;
@@ -78,7 +124,7 @@ nav ul li a:hover{
     padding-right: 20px;
     height: 64px;
   }
-  i{
+  .ph-list, .ph-shopping-cart-simple, .ph-user{
   color: white;
   width: 16px;
   margin-left: 24px;
@@ -97,5 +143,20 @@ nav ul li a:hover{
   overflow: hidden;
   transition: 0.5s;
 }
+.bottomtext{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 11px;
+  text-align: center;
+}
+.bottom {
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }

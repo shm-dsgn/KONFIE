@@ -70,6 +70,7 @@ nav ul li a:hover{
   font-family: Montserrat;
   font-weight: 500;
   font-size: 15px;
+  color: #351C08;
 }
 .ph-twitter-logo-fill, .ph-github-logo-fill, .ph-linkedin-logo-fill, .ph-dribbble-logo-fill{
   font-size: 18px;
@@ -96,6 +97,45 @@ nav ul li a:hover{
 .bottomicons a{
   text-decoration: none;
 }
+.whyus{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+.whyus h2{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 32px;
+  color: #351C08;
+  padding-bottom: 30px;
+}
+.whyus img{
+  width: 48px;
+  color: #351C08;
+}
+.whyus .col-container{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.whyus .col-1{
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whyus .col-1 p{
+  font-family: Montserrat;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: #351C08;
+}
+
+
 
 @media only screen and (max-width: 650px){
   nav ul{
@@ -155,5 +195,37 @@ nav ul li a:hover{
     flex-direction: column;
     align-items: center;
 
+}
+.whyus .col-container{
+  flex-direction: column;
+  align-items: center;
+}
+.whyus {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 36px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.whyus h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 26px;
+    color: #351C08;
+    padding-bottom: 10px;
+}
+.whyus .col-1 {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.whyus .col-1 p{
+  font-size: 13px;
+}
+.whyus img{
+  width: 32px;
 }
 }

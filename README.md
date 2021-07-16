@@ -1,4 +1,4 @@
-# KONFIE
+# KONFIE ☕
 
 KONFIE, a coffee brand created and designed by me back in September, 2020. Starting from product design to UI design of the site to the code of it, everything is done by me.
 

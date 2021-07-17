@@ -131,10 +131,47 @@ nav ul li a:hover{
   font-family: Montserrat;
   text-align: center;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   color: #351C08;
 }
-
+.recycle{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px;
+  overflow: hidden;
+  background-color:#351C08 ;
+}
+.recycle h2{
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 32px;
+  color: white;
+  padding-bottom: 30px;
+}
+.recycle p{
+  font-family: Montserrat;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding: 10px 70px;
+}
+.recycle button{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 14px;
+  color:#351C08 ;
+  background-color: white;
+  padding: 20px;
+  margin-left: 70px;
+  border-radius: 5px;
+  border: 1.5px solid white ;
+}
+.recycle button:hover{
+  color: white;
+  background-color: #351C08;
+  cursor: pointer;
+}
 
 
 @media only screen and (max-width: 650px){
@@ -209,10 +246,7 @@ nav ul li a:hover{
     justify-content: center;
 }
 .whyus h2 {
-    font-family: Montserrat;
-    font-weight: 500;
     font-size: 26px;
-    color: #351C08;
     padding-bottom: 10px;
 }
 .whyus .col-1 {
@@ -227,5 +261,17 @@ nav ul li a:hover{
 }
 .whyus img{
   width: 36px;
+}
+.recycle{
+  padding: 36px;
+}
+.recycle p{
+padding: 10px 24px;
+font-size: 14px;
+}
+.recycle button{
+  padding: 15px;
+  margin-left: 24px;
+  font-size: 12px;
 }
 }

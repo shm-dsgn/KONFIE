@@ -2,6 +2,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: Montserrat;
 }
 .container{
   width: 100%;
@@ -40,7 +41,6 @@ nav ul li a{
   text-decoration: none;
   color: white;
   font-size: 12px;
-  font-family: Montserrat;
   font-weight: 500;
   letter-spacing: 0.05em;
   margin-left: 24px;
@@ -67,7 +67,6 @@ nav ul li a:hover{
   padding-bottom: 25px;
 }
 .bottomtext{
-  font-family: Montserrat;
   font-weight: 500;
   font-size: 15px;
   color: #351C08;
@@ -106,7 +105,6 @@ nav ul li a:hover{
   justify-content: center;
 }
 .whyus h2{
-  font-family: Montserrat;
   font-weight: 500;
   font-size: 32px;
   color: #351C08;
@@ -128,7 +126,6 @@ nav ul li a:hover{
   align-items: center;
 }
 .whyus .col-1 p{
-  font-family: Montserrat;
   text-align: center;
   font-weight: 500;
   font-size: 16px;
@@ -142,14 +139,12 @@ nav ul li a:hover{
   background-color:#351C08 ;
 }
 .recycle h2{
-  font-family: Montserrat;
   font-weight: 400;
   font-size: 32px;
   color: white;
   padding-bottom: 30px;
 }
 .recycle p{
-  font-family: Montserrat;
   text-align: left;
   font-weight: 400;
   font-size: 16px;
@@ -157,7 +152,6 @@ nav ul li a:hover{
   padding: 10px 70px;
 }
 .recycle button{
-  font-family: Montserrat;
   font-weight: 500;
   font-size: 14px;
   color:#351C08 ;
@@ -172,7 +166,50 @@ nav ul li a:hover{
   background-color: #351C08;
   cursor: pointer;
 }
-
+.discount{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px;
+  overflow: hidden;
+}
+.discount h2{
+  font-weight: 500;
+  font-size: 32px;
+  color: #351C08;
+  padding-bottom: 30px;
+}
+.discount p{
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  color: #351C08;
+  padding: 10px 70px;
+}
+.inputEmail{
+  padding: 10px 70px;
+}
+.inputEmail input{
+  height: 30px;
+  width: 300px;
+  font-weight: 500;
+  border: 1.5px solid #351C08;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: #351C08;
+}
+.inputEmail button{
+  height: 34px;
+  width: 34px;
+  border: 1.5px solid #351C08;
+  border-radius: 5px;
+  color:white ;
+  background-color: #351C08;
+}
+.inputEmail button:hover{
+  color: #351C08;
+  background-color: white;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 650px){
   nav ul{
@@ -217,7 +254,6 @@ nav ul li a:hover{
   transition: 0.5s;
 }
 .bottomtext{
-  font-family: Montserrat;
   font-weight: 500;
   font-size: 11px;
   text-align: center;
@@ -257,13 +293,17 @@ nav ul li a:hover{
     margin-bottom: 50px;
 }
 .whyus .col-1 p{
-  font-size: 13px;
+  font-size: 14px;
 }
 .whyus img{
   width: 36px;
 }
 .recycle{
   padding: 36px;
+}
+.recycle h2{
+  font-size: 26px;
+  padding-bottom: 10px;
 }
 .recycle p{
 padding: 10px 24px;
@@ -273,5 +313,22 @@ font-size: 14px;
   padding: 15px;
   margin-left: 24px;
   font-size: 12px;
+}
+.discount{
+  padding: 36px;
+}
+.discount h2{
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+.discount p{
+padding: 10px 24px;
+font-size: 14px;
+}
+.inputEmail{
+padding: 10px 24px;
+}
+.inputEmail input{
+  width: 188px;
 }
 }

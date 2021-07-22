@@ -10,6 +10,9 @@
 	<script src="https://unpkg.com/phosphor-icons"></script>
 </head>
 <body>
+	<img src="resources/loader.gif" id="loader" class="loading">
+
+
 	<div class="container">
 		<div class="navbar">
 			<a href="index.html"><img src="resources/KONFIE.svg" class="logo"></a>
@@ -108,6 +111,20 @@
 				menuList.style.maxHeight = "0px";
 			}
 		}
+
+		document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                  "body").style.visibility = "hidden";
+                document.querySelector(
+                  "#loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                  "#loader").style.display = "none";
+                document.querySelector(
+                  "body").style.visibility = "visible";
+            }
+        };
 	</script>
 	
 </body>

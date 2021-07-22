@@ -12,7 +12,6 @@
 <body>
 	<img src="resources/loader.gif" id="loader" class="loading">
 
-
 	<div class="container">
 		<div class="navbar">
 			<a href="index.html"><img src="resources/KONFIE.svg" class="logo"></a>
@@ -112,19 +111,18 @@
 			}
 		}
 
-		document.onreadystatechange = function() {
-            if (document.readyState !== "complete") {
-                document.querySelector(
-                  "body").style.visibility = "hidden";
-                document.querySelector(
-                  "#loader").style.visibility = "visible";
-            } else {
-                document.querySelector(
+		document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#loader").style.visibility = "visible";
+
+        setTimeout(visibilityToggle,3000);
+
+        function visibilityToggle()
+        {
+        	document.querySelector(
                   "#loader").style.display = "none";
                 document.querySelector(
                   "body").style.visibility = "visible";
-            }
-        };
+        }
 	</script>
 	
 </body>
